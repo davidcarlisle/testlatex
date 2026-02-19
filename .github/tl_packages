@@ -1,0 +1,43 @@
+
+#
+# Required to build plain and LaTeX formats:
+# TeX90 plain for unpacking, pdfLaTeX, LuaLaTeX and XeTeX for tests
+latex-bin
+latex-bin-dev
+luahbtex
+#
+# Assuming a 'basic' font set up, metafont is required to avoid
+# warnings with some packages and errors with others
+metafont
+mfware
+texlive-scripts
+#
+# Contrib packages
+amsfonts
+fontspec
+hyperref
+oberdiek
+lh
+tex-gyre
+hypdoc
+fancyhdr
+
+#
+unicode-math
+latex-lab
+latex-lab-dev
+pdfmanagement-testphase
+tagpdf
+tikz-cd
+latex-tagging-status
+lua-unicode-math
+show-pdf-tags
+geometry
+graphics-def
+latex-tools-dev
+latex-graphics-dev
+latex-amsmath-dev
+tools
+graphics
+amsmath
+luamml
